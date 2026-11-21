@@ -1,0 +1,57 @@
+2026-10-19 20:45:46,913 | INFO | software_fj | Aplicación Software FJ iniciada.
+2026-10-19 20:46:54,193 | INFO | software_fj | Cliente registrado: estban@gmail.com
+2026-10-19 20:46:54,194 | INFO | software_fj | Operación de menú completada.
+2026-10-19 20:47:38,583 | INFO | software_fj | Servicio agregado: Prestamo de equipos
+2026-10-19 20:47:38,584 | INFO | software_fj | Operación de menú completada.
+2026-10-19 20:47:51,708 | ERROR | software_fj | Error controlado durante una operación del menú.
+Traceback (most recent call last):
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 191, in ejecutar_accion
+    accion()
+    ~~~~~~^^
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 236, in <lambda>
+    "9": lambda: procesar_reserva(sistema),
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 171, in procesar_reserva
+    reserva = seleccionar_reserva(sistema)
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 142, in seleccionar_reserva
+    raise ValidacionError("No hay reservas para gestionar.")
+excepciones.ValidacionError: No hay reservas para gestionar.
+2026-10-19 20:47:59,472 | ERROR | software_fj | Error controlado durante una operación del menú.
+Traceback (most recent call last):
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 191, in ejecutar_accion
+    accion()
+    ~~~~~~^^
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 236, in <lambda>
+    "9": lambda: procesar_reserva(sistema),
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 171, in procesar_reserva
+    reserva = seleccionar_reserva(sistema)
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 142, in seleccionar_reserva
+    raise ValidacionError("No hay reservas para gestionar.")
+excepciones.ValidacionError: No hay reservas para gestionar.
+2026-10-19 20:48:01,118 | ERROR | software_fj | Error controlado durante una operación del menú.
+Traceback (most recent call last):
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 191, in ejecutar_accion
+    accion()
+    ~~~~~~^^
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 236, in <lambda>
+    "9": lambda: procesar_reserva(sistema),
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 171, in procesar_reserva
+    reserva = seleccionar_reserva(sistema)
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 142, in seleccionar_reserva
+    raise ValidacionError("No hay reservas para gestionar.")
+excepciones.ValidacionError: No hay reservas para gestionar.
+2026-10-19 20:48:32,617 | ERROR | software_fj | Error controlado durante una operación del menú.
+Traceback (most recent call last):
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 191, in ejecutar_accion
+    accion()
+    ~~~~~~^^
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 232, in <lambda>
+    "5": lambda: crear_reserva(sistema),
+                 ~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 123, in crear_reserva
+    servicio = seleccionar_servicio(sistema)
+  File "C:\Users\Esteban Morillo\Downloads\PROGRAMACION\TAREA 4\SoftwareFJ\main.py", line 110, in seleccionar_servicio
+    raise ValidacionError("El número de servicio no existe.")
+excepciones.ValidacionError: El número de servicio no existe.
